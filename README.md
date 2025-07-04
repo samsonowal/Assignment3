@@ -60,43 +60,56 @@ Problem Statement: Write a Python program that:
 3.   Displays the calculated results.
 4.   Detailed Breakdown:
 
- a. Import the math Module
+Program Functionality Overview
 
-                      import math
+                                 import math
+                                 n = float(input("Enter a number: "))
 
-   Imports Python’s built-in math module, which provides advanced mathematical functions like square root, logarithm, trigonometric functions, etc.
+The program starts by importing the math module, which provides access to various mathematical functions.
 
- b. User Input
+It then prompts the user to enter a number.
 
-                      n = int(input("Enter a number: "))
+The input is converted to a float, which means the user can enter decimal values as well as integers.
 
-  Prompts the user to enter a number.
+Operations Performed
+a. Square Root Calculation
 
-  Converts the input from a string to an integer and stores it in variable n.
+                                 if n >= 0:
+                                     print("Square root of the number", n, "is:", math.sqrt(n))
+                                 else:
+                                     print("Square root of the number", n, "is not possible.")
 
- c. Square Root Calculation
+ If n is zero or positive, it calculates the square root using math.sqrt(n) and displays the result.
 
-                        print("Square root of the number", n, "is:", math.sqrt(n))
+ If n is negative, it prints a message saying the square root is not possible, because square root of a negative number is not defined in the real number system (requires complex numbers).
 
-   Uses math.sqrt(n) to calculate the square root of n.
+b. Natural Logarithm (log base e)
 
-   For example, if n = 9, it outputs 3.0.
+                                    if n > 0:
+                                           print("Natural logarithm (log base e) of the number", n, "is:", math.log(n, math.e))
+                                    else:
+                                           print("Natural logarithm (log base e) of the number", n, "is not possible.")
 
- d. Natural Logarithm (Base e)
+   If n is positive, it computes the natural logarithm (log base e) using math.log(n, math.e).
 
-                        print("Natural logarithm (log base e) of the number", n, "is:", math.log(n, math.e))
+   If n is zero or negative, it informs the user that the logarithm is not possible because log(x) is undefined for x ≤ 0 in real numbers.
 
-  Calculates the natural logarithm of n using math.log(n, math.e).
+c. Sine Calculation (in Radians)
 
-  You could also simply write math.log(n) because the default base is e.
+                                       print("Sine of the number (in radians)", n, "is:", math.sin(n))
 
- e. Sine of the Number (in Radians)
+   This line calculates the sine of the number assuming it is in radians using math.sin(n).
 
-                        print("Sine of the number (in radians)", n, "is:", math.sin(n))
-
-   Calculates the sine of n using math.sin(n), treating n as a value in radians.
-    
+   This operation is valid for any real number, including negative numbers and zero.
+   
 5.   .   Output:
-6.   ![Screenshot 2025-07-04 102959](https://github.com/user-attachments/assets/822727d3-1262-4c03-9b0e-c17fbb9a6f4a)
+   
+6.      ![Screenshot 2025-07-04 105636](https://github.com/user-attachments/assets/55680550-b8b5-4fcb-8bd4-fa0bddc8cb14)
+
+
+7.      ![Screenshot 2025-07-04 105711](https://github.com/user-attachments/assets/66752e3e-5d37-4e57-8305-0144ddd74898)
+
+
+
 
     
