@@ -103,11 +103,11 @@ c. Sine Calculation (in Radians)
    This operation is valid for any real number, including negative numbers and zero.
    
 5.   .   Output:
-   
-6.      ![Screenshot 2025-07-04 105636](https://github.com/user-attachments/assets/55680550-b8b5-4fcb-8bd4-fa0bddc8cb14)
 
+![Screenshot 2025-07-04 105636](https://github.com/user-attachments/assets/c41069b9-99c4-4820-a34f-8060e27d337c)
 
-7.      ![Screenshot 2025-07-04 105711](https://github.com/user-attachments/assets/66752e3e-5d37-4e57-8305-0144ddd74898)
+![Screenshot 2025-07-04 105711](https://github.com/user-attachments/assets/99d93e3a-67de-4319-b339-62caea9117e8)
+     
 
 
 
